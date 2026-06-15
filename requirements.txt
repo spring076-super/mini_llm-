@@ -1,0 +1,12 @@
+# PyTorch：请根据你自己的系统/显卡按照官方指引安装（CPU / CUDA 版本不同）
+# 参考: https://pytorch.org/get-started/locally/
+torch>=2.2
+
+# 训练 BPE 分词器
+tokenizers>=0.19
+
+# 数据处理
+numpy>=1.24
+
+# 进度条（可选，部分脚本里没用到也无妨）
+tqdm>=4.65
